@@ -1,0 +1,8 @@
+double data[ ];  
+
+data[0] = 29.95; 
+
+solucion
+double data[ ] = new double[1]; 
+
+data[0] = 29.95; 
