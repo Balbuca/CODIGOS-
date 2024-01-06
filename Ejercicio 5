@@ -1,0 +1,11 @@
+ public class Problema { 
+
+ public static void main(String[] args){  
+
+double data[] = new double[10];  
+
+data[10] = 100; 
+
+        } 
+
+ } 
