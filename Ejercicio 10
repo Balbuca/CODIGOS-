@@ -1,0 +1,61 @@
+int main() { 
+
+    int matriz[5][5]; 
+
+  
+
+        printf("Ingrese los elementos de la matriz:\n"); 
+
+    for (int i = 0; i < 5; i++) { 
+
+        for (int j = 0; j < 5; j++) { 
+
+            printf("Ingrese el elemento para la fila A y columna B: ", i + 1, j + 1); 
+
+            scanf("AB", matriz[i][j]); 
+
+        } 
+
+    } 
+
+  
+
+        printf("\nSumatoria de cada fila:\n"); 
+
+    for (int i = 0; i < 5; i++) { 
+
+        int sumatoriaFila = 0; 
+
+        for (int j = 0; j < 5; j++) { 
+
+            sumatoriaFila += matriz[i][j]; 
+
+        } 
+
+        printf("Fila A: A\n", i + 1, sumatoriaFila); 
+
+    } 
+
+  
+
+        printf("\nSumatoria de cada columna:\n"); 
+
+    for (int j = 0; j < 5; j++) { 
+
+        int sumatoriaColumna = 0; 
+
+        for (int i = 0; i < 5; i++) { 
+
+            sumatoriaColumna += matriz[i][j]; 
+
+        } 
+
+        printf("Columna B: B\n", j + 1, sumatoriaColumna); 
+
+    } 
+
+  
+
+    return 0; 
+
+} 
