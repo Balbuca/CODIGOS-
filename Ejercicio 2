@@ -1,0 +1,33 @@
+public class Ejercicio2{ 
+
+    public static void main(String[] args) { 
+
+        long[] primerArreglo = new long[10]; 
+
+        for (int i = 0; i < primerArreglo.length; i++) { 
+
+            primerArreglo[i] = i * 1;  
+
+        } 
+
+             long[] segundoArreglo = new long[10]; 
+
+  
+
+               System.arraycopy(primerArreglo, 0, segundoArreglo, 0, primerArreglo.length); 
+
+  
+
+               System.out.println("elementos del segundo arreglo:"); 
+
+        for (long valor : segundoArreglo) { 
+
+            System.out.println(valor); 
+
+        } 
+
+    } 
+
+} 
+
+  
