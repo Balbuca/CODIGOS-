@@ -1,0 +1,31 @@
+public class Ejercicio1{ 
+
+    public static void main(String[] args) { 
+
+                int[] = new int[3]; 
+
+    Scanner comando = new Scanner(System.in); 
+
+  
+
+              for (int i = 0; i < n.length; i++) { 
+
+            System.out.print("Ingrese el valor para la posición " + i + ": "); 
+
+            X[i] = comando.nextInt(); 
+
+        } 
+
+  
+
+        System.out.println("Valores en el arreglo:"); 
+
+        for (int valor : X) { 
+
+        System.out.println(valor); 
+
+        } 
+
+    } 
+
+} 
